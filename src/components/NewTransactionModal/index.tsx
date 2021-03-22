@@ -1,19 +1,19 @@
 import Modal from "react-modal";
 import { Container, TransactionTypeContainer, RadioBox } from "./style";
-
 import closeImg from "../../assets/close.svg";
 import incomeImg from "../../assets/income.svg";
 import outcomeImg from "../../assets/outcome.svg";
 import React from "react";
 import { NewTransactionModalProps } from "../../interfaces";
-import { TransactionsContext } from "../../TransactionsContext";
+import { useTransactions } from "../../hooks/useTransactions";
+
 
 
 export default function NewTransactionModal({
   isOpen,
   onRequestClose,
 }: NewTransactionModalProps) {
-  const {createTransaction} = React.useContext(TransactionsContext)
+  const {createTransaction} = useTransactions();
   const [title, setTitle] = React.useState("");
   const [amount, setAmount] = React.useState(0);
   const [category, setCategory] = React.useState("");

@@ -3,15 +3,15 @@ import {
   Transaction,
   TransactionInput,
   TransactionsContextData,
-} from "./interfaces";
-import { api } from "./services/api";
+} from "../interfaces";
+import { api } from "../services/api";
 
 interface TransactionsProviderProps {
   children: React.ReactNode;
 }
 
 //criando um contexto                                //temos que passar a tipagem que será usada
-export const TransactionsContext = React.createContext<TransactionsContextData>(
+const TransactionsContext = React.createContext<TransactionsContextData>(
   {} as TransactionsContextData
 );
 
@@ -38,4 +38,10 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
       {children}
     </TransactionsContext.Provider>
   );
+}
+
+
+export function useTransactions() {
+  const context = React.useContext(TransactionsContext)
+  return context
 }
