@@ -7,12 +7,13 @@
 
 
 <h1> Tabela de Conteúdo </h1>
---ts--
+
+<!--ts-->
    * [Sobre](#Sobre)
    * [Instalação](#instalacao)
    * [Tecnologias](#tecnologias)
    * [features](#features)
---te--
+<!--te-->
 
 <h3 id="features">Features </h1>
 
