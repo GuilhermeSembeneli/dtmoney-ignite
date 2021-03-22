@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+Aula.md
 
 # testing
 /coverage
