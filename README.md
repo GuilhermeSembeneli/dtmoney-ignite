@@ -39,8 +39,7 @@
 <h3 id="instalacao"> Instalação </h1>
 
 ### Pré-requisitos
-- Antes de começar a instalação certifique-se que possui o [Nodejs](https://nodejs.org/en/download) 
-- E também o [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
+- Antes de começar a instalação certifique-se que possui o [Nodejs](https://nodejs.org/en/download) & [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
 ### Rodando a aplicação
 
