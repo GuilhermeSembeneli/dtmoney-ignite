@@ -15,7 +15,7 @@
    * [features](#features)
 <!--te-->
 
-<h3 id="features">Features </h1>
+<h2 id="features">Features </h1>
 
 - [x] Adicionar entradas de dinheiro
 - [x] Registrar saídas de dinheiro
@@ -24,7 +24,7 @@
   <img alt="dtmoney"  src="https://i.imgur.com/o8OdpRb.png" />
 </h1>
 
-<h3 id="tecnologias"> Tecnologias </h1>
+<h2 id="tecnologias"> Tecnologias </h1>
 
 ### 🛠 Tecnologias & Tools 
 - [ReactJS](https://pt-br.reactjs.org/)
@@ -36,7 +36,7 @@
 - [React Modal](https://github.com/reactjs/react-modal)
 
 
-<h3 id="instalacao"> Instalação </h1>
+<h2 id="instalacao"> Instalação </h1>
 
 ### Pré-requisitos
 - Antes de começar a instalação certifique-se que possui o [Nodejs](https://nodejs.org/en/download) & [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
