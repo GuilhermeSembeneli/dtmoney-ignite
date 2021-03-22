@@ -12,7 +12,7 @@
    * [Sobre](#Sobre)
    * [Instalação](#instalacao)
    * [Tecnologias](#tecnologias)
-   * [features](#features)
+   * [Features](#features)
 <!--te-->
 
 <h2 id="features">Features </h1>
@@ -59,5 +59,5 @@
 ```
 
 <h4 align="center"> 
-	🚧  dt money 💵 completo... 🚧
+	🚧  dt money 💵 Completo... 🚧
 </h4>
