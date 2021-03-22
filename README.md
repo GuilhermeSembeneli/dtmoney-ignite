@@ -3,7 +3,7 @@
 <img src="./src/assets/logo.svg">
 </h1>
 
-<p align="center" id="sobre">Projeto criado no treinamento Ignite da rocketseat em que tem a função em ajudar a organizar as financias. Podendo adicionar entradas de dinheiro e saídas também  </p>
+<p align="center" id="sobre">Projeto criado no treinamento Ignite da rocketseat em que tem o objetivo é de ajudar e organizar as financias. Podendo adicionar entradas de dinheiro e saídas também  </p>
 
 
 <h1> Tabela de Conteúdo </h1>
