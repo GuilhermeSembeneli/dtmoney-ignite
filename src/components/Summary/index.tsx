@@ -6,7 +6,16 @@ import { TransactionsContext } from "../../TransactionsContext";
 import { Container } from "./styles";
 
 export default function Summary() {
-  const {transactions} = React.useContext(TransactionsContext);
+  const { transactions } = React.useContext(TransactionsContext);
+
+  const totalDeposits = transactions.reduce((acc, transaction) => {
+    if (transaction.type === "deposit") {
+      return acc + transaction.amount;
+    }
+
+    return acc;
+  }, 0);
+
   return (
     <Container>
       <div>
@@ -14,7 +23,7 @@ export default function Summary() {
           <p>Entradas</p>
           <img src={IconmeImg} alt="Entradas" />
         </header>
-        <strong>R$1000,00</strong>
+        <strong>R${totalDeposits}</strong>
       </div>
 
       <div>

@@ -21,7 +21,7 @@ export interface NewTransactionModalProps {
 
 export interface TransactionsContextData {
   transactions: Transaction[];
-  createTransaction: (transaction: TransactionInput) => void;
+  createTransaction: (transaction: TransactionInput) => Promise<void>;
 }
 
 /*--------------------Header--------------------*/
